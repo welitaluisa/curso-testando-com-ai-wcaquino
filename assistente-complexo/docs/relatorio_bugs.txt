@@ -1,0 +1,4 @@
+ID,Descricao,Comportamento esperado,Status
+BUG-10,O sistema está retorna "Falha catastrófica" sempre que tentamos salvar uma conta com 6 caracteres,O sistema deve aceitar contas com 6 caracteres normalmente,Aberto
+BUG-20,O sistema não está aceitando contas com o nome "Conta Corrente","Conta Corrente" deve ser um nome válido para contas,Resolvido
+BUG-35,Contas com mesmo nome estão sendo removidas de todos os usuários,Apenas a conta do usuário corrente com o nome em questão deve ser removida,Aberto

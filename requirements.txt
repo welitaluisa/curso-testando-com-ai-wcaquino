@@ -1,0 +1,8 @@
+pytest
+selenium
+webdriver-manager
+eyes-selenium
+flask
+PyJWT
+google-genai
+python-dotenv

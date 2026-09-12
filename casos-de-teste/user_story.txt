@@ -1,0 +1,11 @@
+Título: Login de usuário no sistema
+
+Como um usuário registrado
+Eu quero acessar o sistema informando meu e-mail e senha
+Para que eu possa visualizar e gerenciar minhas informações na plataforma
+
+Critérios de Aceitação:
+- O sistema deve exibir campos para Email e Senha e um botão Entrar.
+- Email e Senha são campos obrigatórios
+- Ao informar credenciais corretas e clicar em “Entrar”, o usuário deve ser redirecionado para a página inicial.
+- Ao informar credenciais inválidas, o sistema deve exibir a mensagem "Problemas com o login do usuário".

@@ -1,0 +1,30 @@
+Caso de Uso – UC01: Login de Usuário
+Nome: UC01 – Login de Usuário no sistema
+Atores: Usuário registrado
+Descrição: Este caso de uso descreve o processo pelo qual um usuário registrado acessa o sistema informando seu e-mail e senha.
+
+Fluxo Principal
+1. O usuário acessa a página inicial do sistema e seleciona a opção Login.
+2. O sistema exibe o formulário de autenticação com os campos Email, Senha e o botão Entrar.
+3. O usuário informa um endereço de e-mail válido e a senha cadastrada.
+4. O usuário clica no botão Entrar.
+5. O sistema valida as credenciais.
+6. O sistema redireciona o usuário autenticado para a página inicial.
+
+Fluxos Alternativos
+
+FA1 – Credenciais inválidas:
+1. No passo 5 do fluxo principal, caso o e-mail ou a senha estejam incorretos, o sistema exibe uma mensagem de erro: “Credenciais inválidas”.
+2. O usuário permanece na tela de login e pode tentar novamente.
+
+FA2 – Campos obrigatórios não preenchidos:
+1. Caso o usuário deixe algum campo vazio e clique em Entrar, o sistema exibe uma mensagem informando que todos os campos são obrigatórios.
+2. O usuário permanece na tela de login.
+
+Pré-condições
+- O usuário deve ter um cadastro válido no sistema.
+- O sistema deve estar disponível e acessível.
+
+Pós-condições
+- Em caso de sucesso, o usuário estará autenticado e terá acesso às funcionalidades permitidas pelo seu perfil.
+- Em caso de falha, nenhuma sessão será iniciada.
