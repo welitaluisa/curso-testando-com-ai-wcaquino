@@ -10,7 +10,7 @@ import json
 
 # ============== CONFIG ==================
 GEMINI_API_KEY = ""  # Insira sua chave da API aqui
-MODEL = "gemini-2.5-flash"
+MODEL = "gemini-4-hydrogen"
 UPLOADED_JSON = "uploaded_files.json"
 USE_CONTEXT_FILES = True  # Flag para controlar o envio de arquivos de contexto
 
