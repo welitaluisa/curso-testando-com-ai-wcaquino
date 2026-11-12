@@ -1,0 +1,23 @@
+[
+  {
+    "id": "files/5ovi2zxhmz1m",
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/5ovi2zxhmz1m",
+    "name": "CursoQA-casos_de_teste.txt",
+    "mime_type": "text/plain",
+    "size_bytes": 622
+  },
+  {
+    "id": "files/mreb62g562d9",
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/mreb62g562d9",
+    "name": "CursoQA-regras_negocio.pdf",
+    "mime_type": "application/pdf",
+    "size_bytes": 58977
+  },
+  {
+    "id": "files/8o5qms8g9exg",
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/8o5qms8g9exg",
+    "name": "CursoQA-relatorio_bugs.txt",
+    "mime_type": "text/plain",
+    "size_bytes": 515
+  }
+]

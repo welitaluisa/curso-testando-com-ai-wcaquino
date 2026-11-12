@@ -1,0 +1,34 @@
+Aqui estão os casos de teste para a funcionalidade de **Cadastro de conta**, seguindo o formato Gherkin e incluindo cenários positivos e negativos:
+
+```gherkin
+Funcionalidade: Cadastro de conta
+  Como um usuário autenticado
+  Eu quero criar uma conta informando apenas o nome
+  Para organizar minhas informações na plataforma
+
+  Contexto:
+    Dado que o usuário está autenticado na plataforma
+    E acessa a página de cadastro de conta
+
+  CT-001: Verificar elementos da interface de cadastro de conta
+    Então o campo "Nome da conta" deve estar visível na tela
+    E o botão "Salvar" deve estar visível na tela
+
+  CT-002: Cadastro de conta com sucesso (Cenário Positivo)
+    Quando o usuário preenche o campo "Nome da conta" com "Conta Pessoal"
+    E clica no botão "Salvar"
+    Então a conta "Conta Pessoal" deve ser criada com sucesso
+    E a conta deve ser vinculada ao usuário logado
+
+  CT-003: Tentativa de cadastro com o campo "Nome da conta" vazio (Cenário Negativo)
+    Quando o usuário deixa o campo "Nome da conta" vazio
+    E clica no botão "Salvar"
+    Então o sistema deve exibir a mensagem de erro "Nome da conta é obrigatório."
+    E a conta não deve ser criada
+
+  CT-004: Tentativa de cadastro com o campo "Nome da conta" preenchido apenas com espaços (Cenário Negativo)
+    Quando o usuário preenche o campo "Nome da conta" com "     "
+    E clica no botão "Salvar"
+    Então o sistema deve exibir a mensagem de erro "Nome da conta é obrigatório."
+    E a conta não deve ser criada
+```

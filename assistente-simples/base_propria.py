@@ -3,7 +3,7 @@ from google.genai import types
 import textwrap
 
 GEMINI_API_KEY = '' # Insira sua chave da API aqui
-MODEL = 'gemini-2.5-flash'
+MODEL = 'gemini-4-hydrogen'
 
 PROMPT_USUARIO = """
 Crie casos de teste para a funcionalidade de cadastro de conta.
